@@ -11,13 +11,14 @@ class School
     unless @roster.include?(grade)
       @roster[grade] = []
     end
-    
+
     @roster[grade] << student
   end
 
-  def grade
+  def grade(grade)
+    @roster[9]
   end
-  
+
   def sort
   end
 
