@@ -20,8 +20,8 @@ class School
   end
 
   def sort
-    @roster.collect do
-      @roster[grade].sort
+    @roster.each do
+      @roster[grade].sort!
     end
   end
 
