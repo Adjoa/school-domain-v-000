@@ -19,10 +19,10 @@ class School
     @roster[grade]
   end
 
-  # def sort
+  def sort
   #   @roster.each do
   #     @roster[grade].sort!
   #   end
-  # end
+  end
 
 end
